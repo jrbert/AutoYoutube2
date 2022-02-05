@@ -8,11 +8,11 @@
     end
     
     Quando('eu acesso o canal') do
-        pending # Write code here that turns the phrase above into concrete actions
+        find('#channel-title').click
     end
     
     Quando('clico em videos') do
-        pending # Write code here that turns the phrase above into concrete actions
+        find(:xpath, '//*[@id="tabsContent"]/tp-yt-paper-tab[2]/div').click
     end
     
     Quando('seleciono um video') do
