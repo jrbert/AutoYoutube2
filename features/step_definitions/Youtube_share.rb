@@ -21,8 +21,9 @@
     
     Quando('clico em compartilhar') do
         find(:xpath, '//*[@id="top-level-buttons-computed"]/ytd-button-renderer[1]/a').click
+        sleep 3
     end
     
-    Então('valido a apresentação da imagem ou texto do whatsapp') do
-        pending # Write code here that turns the phrase above into concrete actions
+    Então('valido a apresentação do texto do WhatsApp') do
+        expect(page).to have_content 'WhatsApp'
     end

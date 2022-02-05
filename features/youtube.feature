@@ -10,4 +10,4 @@ Funcionalidade: Compartilhar no youtube
         E clico em videos
         Quando seleciono um video
         E clico em compartilhar
-        Então valido a apresentação da imagem ou texto do whatsapp
+        Então valido a apresentação do texto do WhatsApp
