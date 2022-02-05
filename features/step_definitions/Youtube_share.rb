@@ -16,7 +16,7 @@
     end
     
     Quando('seleciono um video') do
-        pending # Write code here that turns the phrase above into concrete actions
+        click_link('A importância de fazer cursos de especialização no mercado segurador')
     end
     
     Quando('clico em compartilhar') do
