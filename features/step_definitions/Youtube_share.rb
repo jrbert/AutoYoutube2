@@ -20,7 +20,7 @@
     end
     
     Quando('clico em compartilhar') do
-        pending # Write code here that turns the phrase above into concrete actions
+        find(:xpath, '//*[@id="top-level-buttons-computed"]/ytd-button-renderer[1]/a').click
     end
     
     Então('valido a apresentação da imagem ou texto do whatsapp') do
